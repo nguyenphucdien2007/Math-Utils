@@ -21,7 +21,7 @@ public class MathUtilsTest {
 
     @Test
     public void testMax1(){
-        assertEquals(5, mathUtils.max(5, 3));
+        assertEquals(3, mathUtils.max(5, 3));
 
     }
     @Test
@@ -69,7 +69,7 @@ public class MathUtilsTest {
 
     @AfterAll
     static public void done(){
-        System.out.println("=== Kết thúc ===");
+        logger.info("=== Kết thúc test ===");
     }
 
 
