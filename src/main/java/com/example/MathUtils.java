@@ -1,5 +1,7 @@
 package com.example;
 
+import java.io.File;
+
 public class MathUtils {
     public static int max(int a, int b) {
         if (a >= b) return a;
@@ -17,6 +19,6 @@ public class MathUtils {
      * Tạo đường dẫn lưu file log (Cố tình gây lỗi đa nền tảng).
      */
     public static String createLogPath(String folder, String fileName) {
-        return folder + "\\" + fileName;
+        return folder + File.separator + fileName;
     }
 }
