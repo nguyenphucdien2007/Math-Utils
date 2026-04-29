@@ -12,4 +12,11 @@ public class MathUtils {
         }
         return a / b;
     }
+
+    /**
+     * Tạo đường dẫn lưu file log (Cố tình gây lỗi đa nền tảng).
+     */
+    public static String createLogPath(String folder, String fileName) {
+        return folder + "\\" + fileName;
+    }
 }

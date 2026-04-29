@@ -5,6 +5,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.junit.platform.commons.logging.LoggerFactory;
 
+import java.io.File;
 import java.util.logging.Logger;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -21,7 +22,7 @@ public class MathUtilsTest {
 
     @Test
     public void testMax1(){
-        assertEquals(3, mathUtils.max(5, 3));
+        assertEquals(5, mathUtils.max(5, 3));
 
     }
     @Test
@@ -65,6 +66,13 @@ public class MathUtilsTest {
     @Test
     public void divide4(){
         assertThrows(IllegalArgumentException.class, () -> mathUtils.divide(-5, 0));
+    }
+
+    @Test
+    public void testCreateLogPath() {
+        String expectedPath = "logs" + File.separator + "app.log";
+        String actualPath = MathUtils.createLogPath("logs", "app.log");
+        assertEquals(expectedPath, actualPath, "Đường dẫn không khớp với chuẩn của hệ điều hành!");
     }
 
     @AfterAll
