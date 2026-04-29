@@ -25,8 +25,16 @@ jobs:
           distribution: 'temurin'
           cache: maven
 
-      - name: Thực thi Build Lifecycle (Test & Package)
-        run: mvn -B package
+      - name: Thực thi Build Lifecycle (Verify & Coverage)
+        run: mvn -B verify
+
+      - name: Trích xuất báo cáo JaCoCo (Artifacts)
+          # Chỉ upload báo cáo nếu bước build/test trước đó thành công hoặc thất bại
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jacoco-report-${{ matrix.os }}
+          path: target/site/jacoco/
 
       - name: Lưu trữ tệp .jar (Upload Artifact)
         uses: actions/upload-artifact@v4
