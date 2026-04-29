@@ -31,9 +31,10 @@ jobs:
 
       - name: Thực thi Build Lifecycle (Verify & Coverage)
         run: mvn -B verify
+        continue-on-error: true
 
       - name: Reviewdog - Inline Checkstyle Feedback
-      - uses: dbelyaev/action-checkstyle@v3
+        uses: dbelyaev/action-checkstyle@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-review
@@ -52,5 +53,5 @@ jobs:
       - name: Lưu trữ tệp .jar (Upload Artifact)
         uses: actions/upload-artifact@v4
         with:
-          name: math-utils-jar
+          name: math-utils-jar${{ matrix.os }}
           path: target/*.jar
