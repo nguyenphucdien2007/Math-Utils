@@ -17,11 +17,11 @@ public class MathUtilsTest {
   @BeforeAll
   public static void setUp() {
     mathUtils = new MathUtils();
-     logger.info("=== Bắt đầu test ===");
+    logger.info("=== Bắt đầu test ===");
   }
 
   @Test
-  public void testMax1() {
+   public void testMax1() {
     assertEquals(5, mathUtils.max(5, 3));
   }
 
