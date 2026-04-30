@@ -21,7 +21,7 @@ public class MathUtilsTest {
   }
 
   @Test
-   public void testMax1() {
+  public void testMax1() {
     assertEquals(5, mathUtils.max(5, 3));
   }
 
