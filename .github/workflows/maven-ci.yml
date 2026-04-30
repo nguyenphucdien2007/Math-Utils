@@ -79,7 +79,7 @@ name: Java CI
 on: [push, pull_request]
 
 jobs:
-  build:
+  checkstyle:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
