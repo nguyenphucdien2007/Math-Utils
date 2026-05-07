@@ -1,0 +1,78 @@
+2026-04-29 19:19:42 [main] INFO  com.example.MathUtilsTest - === B?t ??u kh?i ch?y b? test MathUtilsTest ===
+2026-04-29 19:19:42 [main] INFO  com.example.MathUtilsTest - Test max() case 1: Hai s? d??ng b?nh th??ng (5 v? 3)
+2026-04-29 19:19:42 [main] INFO  com.example.MathUtilsTest - Test max() case 2: Hai s? d??ng ??o ng??c v? tr? (10 v? 20)
+2026-04-29 19:19:42 [main] INFO  com.example.MathUtilsTest - Test max() case 3: C? hai s? ??u l? 0
+2026-04-29 19:19:42 [main] INFO  com.example.MathUtilsTest - Test max() case 4: Bi?n gi? tr? c?c ??i v? c?c ti?u (MAX_VALUE v? MIN_VALUE)
+2026-04-29 19:19:42 [main] INFO  com.example.MathUtilsTest - Test max() case 5: C? hai s? ??u l? MIN_VALUE
+2026-04-29 19:19:42 [main] INFO  com.example.MathUtilsTest - Test max() case 6: C?c gi? tr? ti?m c?n MAX_VALUE
+2026-04-29 19:19:42 [main] INFO  com.example.MathUtilsTest - Test createLogPath(): Ki?m tra thu?t to?n n?i ???ng d?n ?a n?n t?ng
+2026-04-29 19:19:42 [main] INFO  com.example.MathUtilsTest - Test divide() case 1: Ph?p chia h?t c? b?n (10 / 5)
+2026-04-29 19:19:42 [main] INFO  com.example.MathUtilsTest - Test divide() case 2: Ph?p chia c? s? ?m (9 / -3)
+2026-04-29 19:19:42 [main] INFO  com.example.MathUtilsTest - Test divide() case 3: T? s? b?ng 0 (0 / 5)
+2026-04-29 19:19:42 [main] INFO  com.example.MathUtilsTest - Test divide() case 4: M?u s? b?ng 0, k? v?ng n?m ra IllegalArgumentException
+2026-04-29 19:19:42 [main] INFO  com.example.MathUtilsTest - === K?t th?c b? test MathUtilsTest ===
+2026-04-29 19:24:35 [main] INFO  com.example.MathUtilsTest - === Bắt đầu khởi chạy bộ test MathUtilsTest ===
+2026-04-29 19:24:35 [main] INFO  com.example.MathUtilsTest - Test max() case 1: Hai số dương bình thường (5 và 3)
+2026-04-29 19:24:35 [main] INFO  com.example.MathUtilsTest - Test max() case 2: Hai số dương đảo ngược vị trí (10 và 20)
+2026-04-29 19:24:35 [main] INFO  com.example.MathUtilsTest - Test max() case 3: Cả hai số đều là 0
+2026-04-29 19:24:35 [main] INFO  com.example.MathUtilsTest - Test max() case 4: Biên giá trị cực đại và cực tiểu (MAX_VALUE và MIN_VALUE)
+2026-04-29 19:24:35 [main] INFO  com.example.MathUtilsTest - Test max() case 5: Cả hai số đều là MIN_VALUE
+2026-04-29 19:24:35 [main] INFO  com.example.MathUtilsTest - Test max() case 6: Các giá trị tiệm cận MAX_VALUE
+2026-04-29 19:24:35 [main] INFO  com.example.MathUtilsTest - Test createLogPath(): Kiểm tra thuật toán nối đường dẫn đa nền tảng
+2026-04-29 19:24:35 [main] INFO  com.example.MathUtilsTest - Test divide() case 1: Phép chia hết cơ bản (10 / 5)
+2026-04-29 19:24:35 [main] INFO  com.example.MathUtilsTest - Test divide() case 2: Phép chia có số âm (9 / -3)
+2026-04-29 19:24:35 [main] INFO  com.example.MathUtilsTest - Test divide() case 3: Tử số bằng 0 (0 / 5)
+2026-04-29 19:24:35 [main] INFO  com.example.MathUtilsTest - Test divide() case 4: Mẫu số bằng 0, kỳ vọng ném ra IllegalArgumentException
+2026-04-29 19:24:35 [main] INFO  com.example.MathUtilsTest - === Kết thúc bộ test MathUtilsTest ===
+2026-04-29 19:25:08 [main] INFO  com.example.MathUtilsTest - === Bắt đầu khởi chạy bộ test MathUtilsTest ===
+2026-04-29 19:25:08 [main] INFO  com.example.MathUtilsTest - Test max() case 1: Hai số dương bình thường (5 và 3)
+2026-04-29 19:25:08 [main] INFO  com.example.MathUtilsTest - Test max() case 2: Hai số dương đảo ngược vị trí (10 và 20)
+2026-04-29 19:25:08 [main] INFO  com.example.MathUtilsTest - Test max() case 3: Cả hai số đều là 0
+2026-04-29 19:25:08 [main] INFO  com.example.MathUtilsTest - Test max() case 4: Biên giá trị cực đại và cực tiểu (MAX_VALUE và MIN_VALUE)
+2026-04-29 19:25:08 [main] INFO  com.example.MathUtilsTest - Test max() case 5: Cả hai số đều là MIN_VALUE
+2026-04-29 19:25:08 [main] INFO  com.example.MathUtilsTest - Test max() case 6: Các giá trị tiệm cận MAX_VALUE
+2026-04-29 19:25:08 [main] INFO  com.example.MathUtilsTest - Test createLogPath(): Kiểm tra thuật toán nối đường dẫn đa nền tảng
+2026-04-29 19:25:08 [main] INFO  com.example.MathUtilsTest - Test divide() case 1: Phép chia hết cơ bản (10 / 5)
+2026-04-29 19:25:08 [main] INFO  com.example.MathUtilsTest - Test divide() case 2: Phép chia có số âm (9 / -3)
+2026-04-29 19:25:08 [main] INFO  com.example.MathUtilsTest - Test divide() case 3: Tử số bằng 0 (0 / 5)
+2026-04-29 19:25:08 [main] INFO  com.example.MathUtilsTest - Test divide() case 4: Mẫu số bằng 0, kỳ vọng ném ra IllegalArgumentException
+2026-04-29 19:25:08 [main] INFO  com.example.MathUtilsTest - === Kết thúc bộ test MathUtilsTest ===
+2026-04-29 19:26:19 [main] INFO  com.example.MathUtilsTest - === Bắt đầu khởi chạy bộ test MathUtilsTest ===
+2026-04-29 19:26:19 [main] INFO  com.example.MathUtilsTest - Test max() case 1: Hai số dương bình thường (5 và 3)
+2026-04-29 19:26:19 [main] INFO  com.example.MathUtilsTest - Test max() case 2: Hai số dương đảo ngược vị trí (10 và 20)
+2026-04-29 19:26:19 [main] INFO  com.example.MathUtilsTest - Test max() case 3: Cả hai số đều là 0
+2026-04-29 19:26:19 [main] INFO  com.example.MathUtilsTest - Test max() case 4: Biên giá trị cực đại và cực tiểu (MAX_VALUE và MIN_VALUE)
+2026-04-29 19:26:19 [main] INFO  com.example.MathUtilsTest - Test max() case 5: Cả hai số đều là MIN_VALUE
+2026-04-29 19:26:19 [main] INFO  com.example.MathUtilsTest - Test max() case 6: Các giá trị tiệm cận MAX_VALUE
+2026-04-29 19:26:19 [main] INFO  com.example.MathUtilsTest - Test createLogPath(): Kiểm tra thuật toán nối đường dẫn đa nền tảng
+2026-04-29 19:26:19 [main] INFO  com.example.MathUtilsTest - Test divide() case 1: Phép chia hết cơ bản (10 / 5)
+2026-04-29 19:26:19 [main] INFO  com.example.MathUtilsTest - Test divide() case 2: Phép chia có số âm (9 / -3)
+2026-04-29 19:26:19 [main] INFO  com.example.MathUtilsTest - Test divide() case 3: Tử số bằng 0 (0 / 5)
+2026-04-29 19:26:19 [main] INFO  com.example.MathUtilsTest - Test divide() case 4: Mẫu số bằng 0, kỳ vọng ném ra IllegalArgumentException
+2026-04-29 19:26:19 [main] INFO  com.example.MathUtilsTest - === Kết thúc bộ test MathUtilsTest ===
+2026-04-29 19:29:54 [main] INFO  com.example.MathUtilsTest - === Bắt đầu khởi chạy bộ test MathUtilsTest ===
+2026-04-29 19:29:54 [main] INFO  com.example.MathUtilsTest - Test max() case 1: Hai số dương bình thường (5 và 3)
+2026-04-29 19:29:54 [main] INFO  com.example.MathUtilsTest - Test max() case 2: Hai số dương đảo ngược vị trí (10 và 20)
+2026-04-29 19:29:54 [main] INFO  com.example.MathUtilsTest - Test max() case 3: Cả hai số đều là 0
+2026-04-29 19:29:54 [main] INFO  com.example.MathUtilsTest - Test max() case 4: Biên giá trị cực đại và cực tiểu (MAX_VALUE và MIN_VALUE)
+2026-04-29 19:29:54 [main] INFO  com.example.MathUtilsTest - Test max() case 5: Cả hai số đều là MIN_VALUE
+2026-04-29 19:29:54 [main] INFO  com.example.MathUtilsTest - Test max() case 6: Các giá trị tiệm cận MAX_VALUE
+2026-04-29 19:29:54 [main] INFO  com.example.MathUtilsTest - Test createLogPath(): Kiểm tra thuật toán nối đường dẫn đa nền tảng
+2026-04-29 19:29:54 [main] INFO  com.example.MathUtilsTest - Test divide() case 1: Phép chia hết cơ bản (10 / 5)
+2026-04-29 19:29:54 [main] INFO  com.example.MathUtilsTest - Test divide() case 2: Phép chia có số âm (9 / -3)
+2026-04-29 19:29:54 [main] INFO  com.example.MathUtilsTest - Test divide() case 3: Tử số bằng 0 (0 / 5)
+2026-04-29 19:29:54 [main] INFO  com.example.MathUtilsTest - Test divide() case 4: Mẫu số bằng 0, kỳ vọng ném ra IllegalArgumentException
+2026-04-29 19:29:54 [main] INFO  com.example.MathUtilsTest - === Kết thúc bộ test MathUtilsTest ===
+2026-05-07 21:59:02 [main] INFO  com.example.MathUtilsTest - === Bắt đầu khởi chạy bộ test MathUtilsTest ===
+2026-05-07 21:59:02 [main] INFO  com.example.MathUtilsTest - Test max() case 1: Hai số dương bình thường (5 và 3)
+2026-05-07 21:59:02 [main] INFO  com.example.MathUtilsTest - Test max() case 2: Hai số dương đảo ngược vị trí (10 và 20)
+2026-05-07 21:59:02 [main] INFO  com.example.MathUtilsTest - Test max() case 3: Cả hai số đều là 0
+2026-05-07 21:59:02 [main] INFO  com.example.MathUtilsTest - Test max() case 4: Biên giá trị cực đại và cực tiểu (MAX_VALUE và MIN_VALUE)
+2026-05-07 21:59:02 [main] INFO  com.example.MathUtilsTest - Test max() case 5: Cả hai số đều là MIN_VALUE
+2026-05-07 21:59:02 [main] INFO  com.example.MathUtilsTest - Test max() case 6: Các giá trị tiệm cận MAX_VALUE
+2026-05-07 21:59:02 [main] INFO  com.example.MathUtilsTest - Test createLogPath(): Kiểm tra thuật toán nối đường dẫn đa nền tảng
+2026-05-07 21:59:02 [main] INFO  com.example.MathUtilsTest - Test divide() case 1: Phép chia hết cơ bản (10 / 5)
+2026-05-07 21:59:02 [main] INFO  com.example.MathUtilsTest - Test divide() case 2: Phép chia có số âm (9 / -3)
+2026-05-07 21:59:02 [main] INFO  com.example.MathUtilsTest - Test divide() case 3: Tử số bằng 0 (0 / 5)
+2026-05-07 21:59:02 [main] INFO  com.example.MathUtilsTest - Test divide() case 4: Mẫu số bằng 0, kỳ vọng ném ra IllegalArgumentException
+2026-05-07 21:59:02 [main] INFO  com.example.MathUtilsTest - === Kết thúc bộ test MathUtilsTest ===
